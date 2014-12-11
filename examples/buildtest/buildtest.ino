@@ -38,7 +38,7 @@ module.
 
 #include <Adafruit_CC3000.h>
 #include <ccspi.h>
-#include <SPI.h>
+#include <MYSPI.h>
 #include <string.h>
 #include "utility/debug.h"
 

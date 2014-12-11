@@ -221,8 +221,6 @@ Adafruit_CC3000::Adafruit_CC3000(uint8_t csPin, uint8_t irqPin, uint8_t vbatPin,
   g_vbatPin = vbatPin;
   g_IRQnum = 0xFF;
   g_SPIspeed = SPIspeed;
-  pinMode(irqPin, INPUT);
-  digitalWrite(irqPin, HIGH);
 
   cc3000Bitset.clear();
 

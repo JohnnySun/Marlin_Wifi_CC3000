@@ -63,7 +63,7 @@
 #include <string.h>
 #include <stdlib.h>
 #include <stdio.h>
-#include <SPI.h>
+#include "MYSPI.h"
 
 #include "utility/wlan.h"
 
